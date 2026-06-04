@@ -12,7 +12,7 @@ frequencia = 1000 # 1k hz
 vcc = 12
 
 # Correntes
-iE = 0.003 # 4 mA
+iE = 0.003 # 3 mA
 iC = alpha * iE
 iB = iE - iC
 
