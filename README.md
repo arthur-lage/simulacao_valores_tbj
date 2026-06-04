@@ -45,7 +45,7 @@ O circuito projetado é um **amplificador de emissor comum** com polarização p
 Certifique-se de ter o Python instalado (versão 3.x):
 
 ```bash
-python bjt_amplifier.py
+python simulacao.py
 ```
 
 Os resultados são impressos no terminal, organizados por categoria (resistências, tensões, correntes, potências e ganho).
