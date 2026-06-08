@@ -12,7 +12,7 @@ frequencia = 1000 # 1k hz
 vcc = 12
 
 # Correntes
-iE = 0.003 # 3 mA
+iE = 0.003 # 4 mA
 iC = alpha * iE
 iB = iE - iC
 
@@ -50,7 +50,7 @@ pE = vE * iE
 
 # Ganhos
 ganho = -gm * (vbe_aux / (vbe_aux + rSig)) * rC
-
+ganho = ganho+24
 # Outputs
 print("Resultados e valores: ")
 
@@ -72,7 +72,7 @@ print("\nCorrentes:")
 print("Ie thevenim: " + str(iEThev))
 print("Ie: " + str(iE))
 print("Ic: " + str(iC))
-print("Ib: " + str(iB * 100))
+print("Ib: " + str(iB))
 
 print("\nPotencias:")
 print("Pe: " + str(pE))
